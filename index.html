@@ -5,12 +5,21 @@
 	<link rel="stylesheet" type="text/css" href="CSS/style.css">
 	<link rel="icon" type="text/css" href="img/foros.png">
 	<title>Fedorov Kirill</title>
-	
+	<script type="text/javascript">
+		window.onload = function() {
+			var button = document.getElementById('input_button_bg_change');
+			var body = document.getElementsByTagName('body')[0];
+			var colors = ['blue', 'grey', 'black', 'white', 'red', 'green', '#aaa', '#FFAACC', 'rgb(122,111,110)'];
+			button.onclick = function() {
+				body.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+			};
+		};
+		</script>
 </head>
 <body>
 <!-- Верхняя часть -->
 	<div class="top-container">
-		
+		<input type="button" id="input_button_bg_change" value="Change background color" class="my-button" />
 		<h1 class="shrift">Kirill Fedorov</h1>
 		<p>I am a 3rd year student</p>
 		<img src="img/mo.png" class="land" alt="land img">
