@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* 
+{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.top-container
+{
+  background-color: #e0ebe8;
+  text-align: center;
+  padding: 10%;
+  padding-bottom: 0;
+  height: 100%;
+}
+
+.top-container h1 
+{
+  font-size: 3rem;
+  font-family: cursive;
+  color: #3e9c87;
+  font-family: "Dancing Script";
+}
+
+.top-container p 
+{
+  color: #3e9c87;
+  
+  font-size: 3.5rem;
+  font-family: sans-serif;
+  font-family: "Dancing Script";
+}
+
+.land {
+  margin-top: 5%;
+  width: 10%;
+}
+
+.cloudone 
+{
+  position: absolute;
+  left: 20%;
+  top: 10%;
+}
+
+.cloudtwo 
+{
+  position: absolute;
+  top: 30%;
+  right: 20%;
+}
+
+.about {
+  text-align: center;
+}
+
+.about img {
+  width: 13%;
+  margin-top: 8%;
+  margin-bottom: 2%;
+}
+
+.about h1 {
+  font-size: 3rem;
+  color: #3e9c87;
+  font-family: sans-serif;
+  font-family: "Dancing Script";
+}
+
+.about p {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  width: 40%;
+  margin: 10px auto;
+  font-family: 'Lobster';
+}
+
+hr {
+  width: 45%;
+  margin: 3% auto;
+  border: 2px dotted #0fddcba3;
+  border-width: 10px;
+  border-bottom: none;
+}
+
+#work {
+  margin: 10% auto;
+  width: 50%;
+  text-align: right;
+}
+
+#work td {
+  padding: 20px;
+  color: #3e9c87;
+}
+
+#work p {
+  color: #000;
+}
+
+#work img {
+  width: 90%;
+}
+
+#work h1 {
+  font-size: 2.5rem;
+  font-family: sans-serif;
+}
+
+#work p {
+  font-family: sans-serif;
+  width: 90%;
+  font-size: 1.2rem;
+  float: right;
+  font-family: 'Righteous';
+  color: #1d16ad;
+}
+
+.footerone {
+  background-color: #e0ebe8;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 10%;
+  font-family: 'Rampart One';
+  color: #030efb;
+
+}
